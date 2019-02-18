@@ -29,16 +29,16 @@ def describe_pet(animal_type,pet_name):
     print("\nI have a " + animal_type + ".");
     print("My " + animal_type + "'s name is " + pet_name.title() + ".");
 
-describe_pet(animal_type = 'hamster',pet_name = 'harry');  # key words
+describe_pet(animal_type='hamster',pet_name=.'harry');  # key words
 
 # type-3
     # pet.py
-def describe_pet(pet_name,animal_type = 'dog'):  # NOTICE: default values should be put in the rightmos
+def describe_pet(pet_name,animal_type='dog'):  # NOTICE: default values should be put in the rightmos
     """show info of pets"""
     print("\nI have a " + animal_type + ".");
     print("My " + animal_type + "'s name is " + pet_name.title() + ".");
 
-describe_pet(pet_name = 'willie');
+describe_pet(pet_name='willie');
 
 
 
@@ -117,12 +117,20 @@ make_pizza(12,'mushrooms','green pepper','extra cheese'); # no matter how many p
 
 
 """ Combine many-parameters with key-words-parameters """
-def build_profile(first ,last,**user_info):
+def build_profile(first ,last,**user_info): # NOTICE: when using **-,actual parameters should be passed in the way of key-words-parameters
     profile = {};
     profile['first_name'] = first;
     profile['last_name'] = last;
     for key,value in user_info.items():
         profile[key] = value;
     return profile;
-user_profile = build_profile('albert','einstein',location = 'priceton',field = 'physics');
+user_profile = build_profile('albert','einstein',location='priceton',field='physics');
 print(user_profile);
+
+
+
+""" Import modules """
+# 1-import the whole file.py     example: import pizza;
+# 2-import specific function     example: from Chapter8_function import build_profile;
+# 3-use "as" to set an alias for a function or a modules     eample: from Chapter8_function import build_profile as bp/import Chapter8_function as af;
+# 4-import all functions     example: from Chapter8_function import *

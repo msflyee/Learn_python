@@ -19,13 +19,13 @@ else:
 
 
 
----------------------------------------------------------------
+'''---------------------------------------------------------------
 # all ways of using "while"
 # 1- while number < 4:
 # 2- while s != True:   s--->bool
 # 3- while a in b:   'a' can be string or int or other types
 # 4- while a:        a-->bool
---------------------------------------------------------------
+--------------------------------------------------------------'''
     # parrot.py
 prompt = "\nTell me something, and I will repeat it back to you:";
 prompt += "\nEnter 'quit' to end the program.";
@@ -79,9 +79,9 @@ unconfirmed_users = ['alice','brain','candace'];
 confirmed_users = [];
 
 '''verify every user and then put them into confirmed_users'''
---------------------------------------------------------------
+'''--------------------------------------------------------------
 # how to use "while" when traversing lists
---------------------------------------------------------------
+--------------------------------------------------------------'''
 while unconfirmed_users:               # this expression traverses the elements in "unconfirmed_users"
     current_user = unconfirmed_users.pop();
     print("Verifying user:" + current_user.title());
