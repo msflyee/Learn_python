@@ -2,7 +2,7 @@
 
 """How to creat a brand new class!"""
     #dog.py
-class Dog():
+class Dog():        # NOTICE: empty bracket
     """First try of simulating a dog"""
     def __init__(self,name,age):        #NOTICE:Here are two underlined lines!!!  "" _"_init_"_""  It is kind of like the constructor funciton in C++.
         """initialize name and age"""   #All parameters which will be used in this class will be defined and assigned in the "__init__" function.
