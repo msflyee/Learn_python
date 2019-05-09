@@ -11,4 +11,5 @@
 7.  **Input and "while" recycle**
 8.  **Function**
 9.  **Class**
+10. **File&Error**
 15. **Data Visualization**
