@@ -12,4 +12,4 @@
 8.  **Function**
 9.  **Class**
 10. **File&Error**
-**15.** **Data Visualization**
+15. **Data Visualization**
