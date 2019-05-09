@@ -11,5 +11,4 @@
 7. **Input and "while" recycle**
 8. **Function**
 9. **Class**
-
 15.**Data Visualization**
