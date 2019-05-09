@@ -1,5 +1,5 @@
 # Challenge
-- **Goal**:Complete a web program and a mini game within 60days.
+- **Goal**:Complete a web program and a mini game within 90days.
 - **Tool**:The book called ***Python Crash Course.***
 ## Contents
 1. **Install**
